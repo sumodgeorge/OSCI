@@ -3,3 +3,4 @@ pyspark == 3.0.1
 pytest==6.0.1
 -r __app__/requirements.txt
 -r osci/requirements.txt
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
