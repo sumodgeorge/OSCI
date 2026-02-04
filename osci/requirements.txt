@@ -14,3 +14,4 @@ Jinja2==3.1.4
 deepmerge==0.1.1
 numpy==1.22.0
 python-dateutil==2.8.1
+protobuf>=6.33.5 # not directly required, pinned by Snyk to avoid a vulnerability
